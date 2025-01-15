@@ -1,0 +1,43 @@
+{
+  "mainTopics": [
+    {
+      "mainTopicName": "BO'LIM1",
+      "subTopics": [
+        {
+          "subTopicName": "MAVZU1",
+          "questions": [
+            {
+              "question": "SAVOL1",
+              "options": ["VARIANT1", "VARIANT2", "VARIANT3", "VARIANT4"],
+              "answer": "VARIANT3",
+              "image": "assets/examplequestion1.png"
+            },
+            {
+              "question": "SAVOL2",
+              "options": ["VARIANT1", "VARIANT2", "VARIANT3", "VARIANT4"],
+              "answer": "VARIANT4",
+              "image": ""
+            }
+          ]
+        },
+        {
+          "subTopicName": "MAVZU2",
+          "questions": [
+            {
+              "question": "SAVOL1",
+              "options": ["VARIANT1", "VARIANT2", "VARIANT3", "VARIANT4"],
+              "answer": "VARIANT1",
+              "image": "assets/examplequestion2.png"
+            },
+            {
+              "question": "SAVOL2",
+              "options": ["VARIANT1", "VARIANT2", "VARIANT3", "VARIANT4"],
+              "answer": "VARIANT2",
+              "image": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

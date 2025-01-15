@@ -1,0 +1,45 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+#topicList {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.subtopic-item {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+h3 {
+  margin-top: 20px;
+  color: #333;
+}
+
+.options-list {
+  margin-bottom: 10px;
+}
+
+.option-item {
+  padding: 5px;
+  font-size: 16px;
+}
+
+.option-item:hover {
+  background-color: #f0f0f0;
+}
+
+.option-item.bold {
+  font-weight: bold;
+}
+
+.correct {
+  color: green;
+}
+
+.incorrect {
+  color: red;
+}

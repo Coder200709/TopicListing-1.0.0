@@ -1,0 +1,43 @@
+{
+  "mainTopics": [
+    {
+      "mainTopicName": "Bolim1",
+      "subTopics": [
+        {
+          "subTopicName": "Algebra",
+          "questions": [
+            {
+              "question": "What is the solution to 2x + 3 = 7?",
+              "options": ["x = 1", "x = 2", "x = 3", "x = 4"],
+              "answer": "x = 2",
+              "image": "assets/examplequestion1.png"
+            },
+            {
+              "question": "What is the value of x in x^2 = 25?",
+              "options": ["x = 5", "x = 10", "x = 25", "x = -5"],
+              "answer": "x = 5",
+              "image": ""
+            }
+          ]
+        },
+        {
+          "subTopicName": "Geometry",
+          "questions": [
+            {
+              "question": "What is the sum of angles in a triangle?",
+              "options": ["90°", "180°", "360°", "270°"],
+              "answer": "180°",
+              "image": ""
+            },
+            {
+              "question": "How many sides does a hexagon have?",
+              "options": ["4", "5", "6", "7"],
+              "answer": "6",
+              "image": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

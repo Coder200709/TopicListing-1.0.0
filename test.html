@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1>Quiz App</h1>
+    <div id="timerSection">
+        Time Left: <span id="timerDisplay">00:00</span>
+    </div>
+    <div id="quiz-settings">
+
+        <div id="topic-selection">
+            <h2>Select Topics</h2>
+            <div id="topicList"></div>
+        </div>
+        <div id="quiz-options">
+            <label for="questionCount">Number of Questions:</label>
+            <input type="number" id="questionCount" value="0" min="1">
+            <label for="timer">Set Timer (in minutes):</label>
+            <input type="number" id="timer" value="1" min="1">
+        </div>
+        <button onclick="startQuiz()">Start Quiz</button>
+    </div>
+    <iframe width="944" height="531" src="https://www.youtube.com/embed/nn3ly55_miY" title="&quot;USTOZ 2020&quot; uchun Norqobilov Farhod al-Xorazmiy maktabidan." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <div id="quizSection" style="display: none;">
+        <p id="questionNumber"></p>
+        <div id="question"></div>
+        <img id="questionImage" style="display: none; max-width: 200px;" alt="Question Image">
+        <div id="options"></div>
+    </div>
+
+    <div id="resultsSection" style="display: none;">
+        <div id="results"></div>
+        <button id="retakeButton" onclick="restartQuiz()">Retake Quiz</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
