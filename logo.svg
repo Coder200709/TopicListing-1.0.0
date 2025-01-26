@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 50">
+  <g fill="#7157FF">
+    <path d="M20,10 Q30,5 40,10 T60,10 Q50,25 40,40 T20,10" />
+    <text x="70" y="35" font-family="Arial" font-size="24" font-weight="bold">QLTSGeek</text>
+  </g>
+</svg>
